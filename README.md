@@ -7,40 +7,41 @@ Reccomended: restart display before running bitmapLoader.py
 After the bitmap is uploaded to the display, you should see something like this output:
 
 ``
-Bitmap sent into display. Display uart output:
-b'\r[cl] Okay, proceeding to write bitmap.\n'
-b'\r[cl] Okay, ready to parse bitmap #5, size 81x23 pixels.\n'
-b'\r[cl] 3720 bytes left.\n'
-b'\r[cl] 3348 bytes left.\n'
-b'\r[cl] 2976 bytes left.\n'
-b'\r[cl] 2604 bytes left.\n'
-b'\r[cl] 2232 bytes left.\n'
-b'\r[cl] 1860 bytes left.\n'
-b'\r[cl] 1488 bytes left.\n'
-b'\r[cl] 1116 bytes left.\n'
-b'\r[cl] 744 bytes left.\n'
-b'\r[cl] 372 bytes left.\n'
-b'\rerase at 892928 \n'
-b'\rMultipage write [3732]b@892928 \n'
-b'\rerase at 819200 \n'
-b'\rMultipage write [2052]b@819200 \n'
+
 b'\r[cl] Bitmap sent into display. Display uart output:
+
 b'\r[cl] Okay, proceeding to write bitmap.\n'
+
 b'\r[cl] Okay, ready to parse bitmap #5, size 81x23 pixels.\n'
+
 b'\r[cl] 3720 bytes left.\n'
+
 b'\r[cl] 3348 bytes left.\n'
+
 b'\r[cl] 2976 bytes left.\n'
+
 b'\r[cl] 2604 bytes left.\n'
+
 b'\r[cl] 2232 bytes left.\n'
+
 b'\r[cl] 1860 bytes left.\n'
+
 b'\r[cl] 1488 bytes left.\n'
+
 b'\r[cl] 1116 bytes left.\n'
+
 b'\r[cl] 744 bytes left.\n'
+
 b'\r[cl] 372 bytes left.\n'
+
 b'\rerase at 892928 \n'
+
 b'\rMultipage write [3732]b@892928 \n'
+
 b'\rerase at 819200 \n'
+
 b'\rMultipage write [2052]b@819200 \n'
+
 b'\r[cl] Bitmap #5 has been written.\n'
 ``
 
