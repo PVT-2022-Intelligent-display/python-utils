@@ -6,7 +6,7 @@ Reccomended: restart display before running bitmapLoader.py
 
 After the bitmap is uploaded to the display, you should see something like this output:
 
-``
+```
 
 b'\r[cl] Bitmap sent into display. Display uart output:
 
@@ -43,7 +43,7 @@ b'\rerase at 819200 \n'
 b'\rMultipage write [2052]b@819200 \n'
 
 b'\r[cl] Bitmap #5 has been written.\n'
-``
+```
 
 Note the last line - note this number down, you will use it later to refer to the bitmap you just uploaded.
 
