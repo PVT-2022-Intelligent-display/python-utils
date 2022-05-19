@@ -1,9 +1,9 @@
+
 import serial
 import time
 from time import sleep
 
-ser = serial.Serial('COM4', 115200) #replace with your com port
-
+ser = serial.Serial('COM7', 115200) #replace with your com port
 
 ser.write("config\r".encode())
 ser.write("2\r".encode()) #number of screens
@@ -42,11 +42,13 @@ ser.write("0001\r".encode()) #scaling
 ser.write("slider\r".encode())
 ser.write("2\r".encode()) #id
 ser.write("20\r".encode()) #xstart
-ser.write("210\r".encode()) #ystart
-ser.write("148\r".encode()) #xend
-ser.write("274\r".encode()) #yend
-ser.write("2\r".encode()) #datalen
-ser.write("0007\r".encode()) #bitmap number 
+ser.write("200\r".encode()) #ystart
+ser.write("270\r".encode()) #xend
+ser.write("255\r".encode()) #yend
+ser.write("4\r".encode()) #datalen
+ser.write("0007".encode()) #bitmap number
+ser.write("03".encode()) #default value
+ser.write("01\r".encode())#scaling
 
 #object 4 - screenbutton
 ser.write("screenbutton\r".encode())
@@ -135,7 +137,6 @@ ser.write("0002\r".encode()) #scaling
 
 while(1):
     print(ser.readline())
-
 
 
 
