@@ -5,7 +5,7 @@ import time
 from time import sleep
 
 COMPORT = 'COM4'                        #replace with your com port
-imageName = "button_stm32ide_2.bmp"           #replace with target image name
+imageName = "button_stm32ide_next_2.bmp"           #replace with target image name
 TRANSPARENT_RGB565 = 1                  #value representing transparent color inside STM32 display
 TRANSPARENT_RGB565_REPLACEMENT = 0      #pixel value to which a randomly occuring TRANSPARENT_RGB565 result should be rounded
 USE_TRANSPARENCY = False                #change to true if you want to mask a colour as transparent
